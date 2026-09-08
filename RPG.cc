@@ -21,6 +21,6 @@ void Curar(int &vida, int puntos)
     std:: cout<<"La vida del personaje a sido aumentada"<< std::endl;
     }
     else{
-        std::cout<<"Error, vida maxima alcanzada"<<std::endl;
+        std::cout<<"Error, la vida maxima ha sido alcanzada"<<std::endl;
     }
 }
