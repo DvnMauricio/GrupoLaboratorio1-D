@@ -7,22 +7,6 @@ struct personaje
 
 void ConsultarVida(int vida);
 void Curar(int &vida, int puntos);
-int main()
-{
-    personaje Personaje;
-
-    Personaje.vida = 90;
-
-    std::cout << "Vida inicial: " << std::endl;
-    ConsultarVida(Personaje.vida);
-
-    Curar(Personaje.vida, 10);
-
-    std::cout << "Despues de curar: " << std::endl;
-    ConsultarVida(Personaje.vida);
-
-    return 0;
-}
 
 
 void ConsultarVida(int vida)
